@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dejan345/CryptoChromeExtension/issues"
   },
-  "homepage": "https://github.com/dejan345/CryptoChromeExtension#readme"
+  "homepage": "https://github.com/dejan345/CryptoChromeExtension#readme",
+  "dependencies": {
+    "eslint": "^4.17.0"
+  }
 }
