@@ -1,0 +1,45 @@
+body {
+  background-color: #19232d;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1rem;
+}
+
+h1 {
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+p {
+  color: #fff;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 1em;
+  /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+  grid-template-columns: 1fr 1fr;
+  padding: 1em;
+  text-align: center;
+}
+
+.currency-box {
+  /* background-color: aquamarine; */
+  background-color: #263545;
+  padding: 0rem;
+  margin: 0;
+  border-radius: 7px;
+  color: wheat;
+  font-size: 1rem;
+}
+
+.currency-box h2 {
+  color: #cb45b0;
+  font-size: 1rem;
+}
+
+.currency-box .price {
+  color: #d7d7d7;
+  font-size: 1.8rem;
+}
