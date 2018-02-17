@@ -43,3 +43,33 @@ p {
   color: #d7d7d7;
   font-size: 1.8rem;
 }
+
+.change {
+  color: #bebebe;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  margin-top: 2em;
+}
+
+.percentage {
+  font-size: 0.7rem;
+  margin-bottom: 1em;
+  margin-top: 0.2em;
+}
+
+.green {
+  color: #63eeab;
+  font-size: 0.7rem;
+  margin-bottom: 1em;
+  margin-top: 0.2em;
+}
+
+.red {
+  color: #ef82a9;
+  font-size: 0.7rem;
+  margin-bottom: 1em;
+  margin-top: 0.2em;
+}
+
+/* green 63eeab */
+/* red ef82a9 */

@@ -6,36 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <title>Cryptocurrency</title>
+    <title>Cryptocurrency tracker</title>
 </head>
 
 <body>
-    <h1>Cryptocurrency</h1>
+    <h1>Cryptocurrency tracker</h1>
     <div class="wrapper">
         <div class="currency-box">
             <h2>Bitcoin</h2>
-            <div class="price">$ 1258</div class="price">
+            <div id='bitcoin-price' class="price"></div class="price">
             <div class="change">change last 24h</div>
+            <div id='btc-percentage' class="percentage"></div>
         </div>
         <div class="currency-box">
             <h2>Ethereum</h2>
-            <div class="price">$ 258</div class="price">
+            <div id='eth-price' class="price"></div class="price">
             <div class="change">change last 24h</div>
+            <div id='eth-percentage' class="percentage"></div>
+
 
         </div>
         <div class="currency-box">
             <h2>Ripple</h2>
-            <div class="price">$ 754</div class="price">
+            <div id='ripple-price' class="price"></div class="price">
             <div class="change">change last 24h</div>
+            <div id='ripple-percentage' class="percentage"></div>
+
 
         </div>
         <div class="currency-box">
             <h2>Litecoin</h2>
-            <div class="price">$ 568</div class="price">
+            <div id='litecoin-price' class="price"></div class="price">
             <div class="change">change last 24h</div>
-
+            <div id='litecoin-percentage' class="percentage"></div>
         </div>
     </div>
 </body>
+
+<script src="index.js"></script>
 
 </html>
