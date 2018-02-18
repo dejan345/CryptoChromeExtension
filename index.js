@@ -12,17 +12,17 @@ fetch(url)
       data[0].percent_change_24h + ' %';
 
     document.getElementById('eth-price').innerHTML =
-      '$ ' + data[1].price_usd.slice(0, -3);
+      '$ ' + data[1].price_usd.slice(0, -4);
     document.getElementById('eth-percentage').innerHTML =
       data[1].percent_change_24h + ' %';
 
     document.getElementById('ripple-price').innerHTML =
-      '$ ' + data[2].price_usd.slice(0, -2);
+      '$ ' + data[2].price_usd.slice(0, -3);
     document.getElementById('ripple-percentage').innerHTML =
       data[2].percent_change_24h + ' %';
 
     document.getElementById('litecoin-price').innerHTML =
-      '$ ' + data[4].price_usd.slice(0, -4);
+      '$ ' + data[4].price_usd.slice(0, -3);
     document.getElementById('litecoin-percentage').innerHTML =
       data[4].percent_change_24h + ' %';
 
