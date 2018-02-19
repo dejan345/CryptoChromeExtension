@@ -22,7 +22,7 @@ fetch(url)
       data[2].percent_change_24h + ' %';
 
     document.getElementById('litecoin-price').innerHTML =
-      '$ ' + data[4].price_usd.slice(0, -3);
+      '$ ' + data[4].price_usd.split('.')[0];
     document.getElementById('litecoin-percentage').innerHTML =
       data[4].percent_change_24h + ' %';
 
