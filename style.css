@@ -36,6 +36,7 @@ p {
   /* background-color: aquamarine; */
   background-color: #263545;
   padding: 0rem;
+  padding-bottom: 1em;
   margin: 0;
   border-radius: 7px;
   color: wheat;
@@ -59,26 +60,26 @@ p {
   color: #bebebe;
   text-transform: uppercase;
   font-size: 0.7rem;
-  margin-top: 1.5em;
+  margin-top: 1em;
 }
 
 .percentage {
   font-size: 0.7rem;
-  margin-bottom: 1em;
+  margin-bottom: 0em;
   margin-top: 0.2em;
 }
 
 .green {
   color: #63eeab;
   font-size: 0.7rem;
-  margin-bottom: 1em;
+  /* margin-bottom: 1em; */
   margin-top: 0.2em;
 }
 
 .red {
   color: #ef82a9;
   font-size: 0.7rem;
-  margin-bottom: 1em;
+  /* margin-bottom: 1em; */
   margin-top: 0.2em;
 }
 
@@ -93,4 +94,63 @@ h2.gradient {
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
+}
+
+/* Fade in */
+
+.currency-box {
+  -webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2.5s; /* Firefox < 16 */
+  -ms-animation: fadein 2.5s; /* Internet Explorer */
+  -o-animation: fadein 2.5s; /* Opera < 12.1 */
+  animation: fadein 2.5s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
