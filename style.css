@@ -44,7 +44,8 @@ p {
 }
 
 .currency-box h2 {
-  color: #cb45b0;
+  /* color: #cb45b0; */
+  color: #00c7ef;
   font-size: 0.85rem;
   text-transform: uppercase;
   font-weight: 700;
@@ -88,9 +89,9 @@ p {
 
 h2.gradient {
   /* font-size: 3em; */
-  background-image: -webkit-linear-gradient(to bottom, #ffad5b, #ff8aef);
-  background-image: -moz-linear-gradient(to bottom, #ffad5b, #ff8aef);
-  background-image: linear-gradient(to bottom, #ffad5b, #ff8aef);
+  background-image: -webkit-linear-gradient(to bottom, #00eadf, #00c7ef);
+  background-image: -moz-linear-gradient(to bottom, #00eadf, #00c7ef);
+  background-image: linear-gradient(to bottom, #00eadf, #00c7ef);
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;

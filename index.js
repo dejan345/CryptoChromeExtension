@@ -3,9 +3,6 @@ let url = 'https://api.coinmarketcap.com/v1/ticker/?limit=10';
 fetch(url)
   .then(res => res.json())
   .then(data => {
-    // console.log('Checkout this JSON! ', out);
-    // var data = out;
-
     document.getElementById('bitcoin-price').innerHTML =
       '$ ' + data[0].price_usd.split('.')[0];
     document.getElementById('btc-percentage').innerHTML =
@@ -36,11 +33,15 @@ fetch(url)
 
     //   change class
 
-    if (data[0].percent_change_24h > 0) {
-      document.getElementById('btc-percentage').className = 'green';
-    } else {
-      document.getElementById('btc-percentage').className = 'red';
-    }
+    // if (data[0].percent_change_24h > 0) {
+    //   document.getElementById('btc-percentage').className = 'green';
+    // } else {
+    //   document.getElementById('btc-percentage').className = 'red';
+    // }
+    data[0].percent_change_24h > 0
+      ? (document.getElementById('btc-percentage').className = 'green')
+      : (document.getElementById('btc-percentage').className = 'red');
+
     if (data[0].percent_change_7d > 0) {
       document.getElementById('btc-percentage-7d').className = 'green';
     } else {
